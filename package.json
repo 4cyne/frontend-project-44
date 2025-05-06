@@ -6,15 +6,19 @@
   "bugs": {
     "url": "https://github.com/4cyne/frontend-project-44/issues"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/4cyne/frontend-project-44.git"
   },
   "license": "ISC",
   "author": "Ivan Kazakov",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+}
 }
