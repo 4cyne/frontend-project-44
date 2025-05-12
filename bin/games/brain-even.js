@@ -1,11 +1,12 @@
 import { runGame } from '../../src/index.js'
+import { getRandomNumber } from '../utils/get-random-number.js'
 
 const isEven = (number) => number % 2 === 0
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 const game = () => {
-  const number = Math.floor(Math.random() * 100) + 1
+  const number = getRandomNumber(1, 100)
 
   return {
     question: number,

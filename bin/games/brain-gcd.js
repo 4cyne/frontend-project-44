@@ -1,11 +1,12 @@
 import { runGame } from '../../src/index.js'
 import { NOD } from '../utils/calcGCD.js'
+import { getRandomNumber } from '../utils/get-random-number.js'
 
 export const gameRules = 'Find the greatest common divisor of given numbers.'
 
 const game = () => {
-  const num1 = Math.floor(Math.random() * 100) + 1
-  const num2 = Math.floor(Math.random() * 100) + 1
+  const num1 = getRandomNumber(1, 100)
+  const num2 = getRandomNumber(1, 100)
 
   return {
     question: `${num1} ${num2}`,
