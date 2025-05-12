@@ -31,5 +31,6 @@ export const runGame = (gameRules, game) => {
       console.log(`Let's try again, ${userName}!`)
       return
     }
+    if (correctAnswersUser === 3) console.log(`Congratulations, ${userName}`)
   }
 }
