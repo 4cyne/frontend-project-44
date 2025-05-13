@@ -9,3 +9,5 @@ brain-even demo: https://asciinema.org/a/Z3YnKKvm59YzLjWnwjIbvL9Y7
 brain-calc demo: https://asciinema.org/a/iXFoWl16vA1BQVgslrNNPzwa5
 
 brain-gcd demo: https://asciinema.org/a/lWIYS3cunjWhbrfiMiKEAPUX6
+
+brain-progression demo: https://asciinema.org/a/dgg1XxumW15oIzvagXofNteCI
