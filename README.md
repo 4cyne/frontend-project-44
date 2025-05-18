@@ -30,33 +30,33 @@ Answer 3 questions correctly and you win!
 
 ### calculate the arithmetic expression and enter your answer
 
-- command for run - make brain-calc
+- command for run - "make brain-calc"
 - brain-calc demo: https://asciinema.org/a/iXFoWl16vA1BQVgslrNNPzwa5
 
 ## brain-even
 
 ### Answer "yes" if the number is even, otherwise answer "no".'
 
-- command for run - make brain-even
+- command for run - "make brain-even"
 - https://asciinema.org/a/Z3YnKKvm59YzLjWnwjIbvL9Y7
 
 ## brain-gcd
 
 ### Find the greatest common divisor of given numbers.
 
-- command for run - make brain-gcd
+- command for run - "make brain-gcd"
 - demo: https://asciinema.org/a/lWIYS3cunjWhbrfiMiKEAPUX6
 
 ## brain-progression
 
 ### calculate and enter the missing numberю
 
-- command for run - make brain-progression
+- command for run - "make brain-progression"
 - demo: https://asciinema.org/a/dgg1XxumW15oIzvagXofNteCI
 
 ## brain-prime
 
 ### Answer "yes" if given number is prime. Otherwise answer "no".
 
-- command for run - make brain-prime
+- command for run - "make brain-prime"
 - demo: https://asciinema.org/a/Ix4bVzvOwAXL3xUvTL2STCBil
