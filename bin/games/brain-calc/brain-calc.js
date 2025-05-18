@@ -1,7 +1,7 @@
-import { getRandomItem } from '../utils/get-random-item.js'
-import { calculateAnswer } from '../utils/calculate-answer.js'
-import { runGame } from '../../src/index.js'
-import { getRandomNumber } from '../utils/get-random-number.js'
+import { getRandomItem } from './get-random-item.js'
+import { calculateAnswer } from './calculate-answer.js'
+import { runGame } from '../../../src/index.js'
+import { getRandomNumber } from '../../utils/get-random-number.js'
 
 const gameRules = 'What is the result of the expression?'
 

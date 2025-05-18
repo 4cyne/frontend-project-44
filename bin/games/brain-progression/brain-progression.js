@@ -1,6 +1,6 @@
-import { runGame } from '../../src/index.js'
-import { arithmeticProgression } from '../utils/get-array-arithmetic-progression.js'
-import { getRandomNumber } from '../utils/get-random-number.js'
+import { runGame } from '../../../src/index.js'
+import { arithmeticProgression } from './get-array-arithmetic-progression.js'
+import { getRandomNumber } from '../../utils/get-random-number.js'
 
 const gameRules = 'What is the result of the expression?'
 
