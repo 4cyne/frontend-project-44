@@ -4,12 +4,11 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=4cyne_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=4cyne_frontend-project-44)
 
-Hi, this project contains 5 games, to run them you need to install ubuntu:
+Hi, this project contains 5 games, to run them you need to install:
 https://ubuntu.com/download/desktop
 https://www.npmjs.com/package/make
 
 commands to run games:
-
 make brain-calc
 brain-calc demo: https://asciinema.org/a/iXFoWl16vA1BQVgslrNNPzwa5
 
