@@ -19,9 +19,10 @@ Answer 3 questions correctly and you win!
 ## manual
 
 1. clone the repository
-   git clone https://github.com/4cyne/frontend-project-44.git
+   - git clone https://github.com/4cyne/frontend-project-44.git
 2. install dependencies
-   npm install
+
+   - npm install
 
 3. commands for launching games
 
