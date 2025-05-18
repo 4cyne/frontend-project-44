@@ -14,7 +14,7 @@ Answer 3 questions correctly and you win!
 1. Make sure that you have the following installed:
 
 - Node.js (v14+) (https://nodejs.org/en/download)
-- Ubuntu (https://ubuntu.com/download/desktop)
+- make https://www.npmjs.com/package/make
 
 ## manual
 
