@@ -9,7 +9,7 @@ const game = () => {
   const num2 = getRandomNumber(1, 100);
 
   return {
-    question: `${num1} ${num2}`,
+    number: `${num1} ${num2}`,
     correctAnswer: NOD(num1, num2),
   };
 };

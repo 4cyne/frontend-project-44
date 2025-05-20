@@ -12,7 +12,7 @@ const game = () => {
     return num > 1;
   };
   return {
-    question: `${num}`,
+    number: `${num}`,
     correctAnswer: isPrime(num) ? "yes" : "no",
   };
 };

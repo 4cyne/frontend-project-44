@@ -9,7 +9,7 @@ const game = () => {
   const number = getRandomNumber(1, 100);
 
   return {
-    question: number,
+    number,
     correctAnswer: isEven(number) ? "yes" : "no",
   };
 };

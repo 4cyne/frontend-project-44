@@ -11,7 +11,7 @@ const game = () => {
   const num2 = getRandomNumber(0, 100);
 
   return {
-    question: `${num1} ${operator} ${num2}`,
+    number: `${num1} ${operator} ${num2}`,
     correctAnswer: calculateAnswer(num1, num2, operator),
   };
 };

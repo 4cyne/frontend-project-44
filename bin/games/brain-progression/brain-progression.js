@@ -12,7 +12,7 @@ const game = () => {
   const { hiddenNumber, progression } = arithmeticProgression(step, length);
 
   return {
-    question: `${progression}`,
+    number: `${progression}`,
     correctAnswer: `${hiddenNumber}`,
   };
 };
