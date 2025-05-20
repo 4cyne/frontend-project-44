@@ -20,11 +20,11 @@ Answer 3 questions correctly and you win!
 
 1. clone the repository
    - git clone https://github.com/4cyne/frontend-project-44.git
+
 2. install dependencies
 
    - npm install
 
-3. commands for launching games
 
 ## brain-calc
 
