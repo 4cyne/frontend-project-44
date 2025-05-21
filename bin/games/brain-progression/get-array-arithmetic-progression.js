@@ -1,16 +1,19 @@
-export const arithmeticProgression = (step, length) => {
+export const arithmeticProgression = (step, lim) => {
   // получаем массив прогрессии
-  const arrProgression = Array.from({ length }, (_, i) => (i + 1) * step);
+  const arr = Array.from(
+    { length: Math.ceil(lim / step) },
+    (_, i) => (i + 1) * step
+  );
+  if (arr.length >= 5 && arr.length <= 10) {
+    // рандомно выбираем число, которое хотим скрыть
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    // сохраняем число
+    const hiddenNumber = arr[randomIndex];
 
-  // рандомно выбираем число, которое хотим скрыть
-  const randomIndex = Math.floor(Math.random() * arrProgression.length);
-  // сохраняем число
-  const hiddenNumber = arrProgression[randomIndex];
-
-  arrProgression[randomIndex] = "..";
-
-  return {
-    progression: arrProgression,
-    hiddenNumber,
-  };
+    arr[randomIndex] = "..";
+    return {
+      progression: arr,
+      hiddenNumber,
+    };
+  }
 };

@@ -9,7 +9,7 @@ const game = () => {
   const lim = getRandomNumber(5, 100);
   const step = Math.floor(lim / length + 2);
 
-  const { hiddenNumber, progression } = arithmeticProgression(step, length);
+  const { hiddenNumber, progression } = arithmeticProgression(step, lim);
 
   return {
     number: `${progression}`,
