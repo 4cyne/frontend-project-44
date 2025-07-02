@@ -18,7 +18,7 @@ export const runGame = (gameRules, game) => {
     console.log(`Question: ${number}`);
 
     const userAnswer = readlineSync
-      .question("Your answer:")
+      .question("Your answer: ")
       .toLowerCase()
       .trim();
 
@@ -27,11 +27,11 @@ export const runGame = (gameRules, game) => {
       console.log("Correct!");
     } else {
       console.log(
-        `"${userAnswer}" is wrong answer ;(. Correct answer was: "${correctAnswer}".`
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
       );
       console.log(`Let's try again, ${userName}!`);
       return;
     }
-    if (correctAnswersUser === 3) console.log(`Congratulations, ${userName}`);
+    if (correctAnswersUser === 3) console.log(`Congratulations, ${userName}!`);
   }
 };
