@@ -11,7 +11,7 @@ export const arithmeticProgression = (step, lim) => {
     const randomIndex = Math.floor(getRandomNumber(1, arr.length - 1));
     // сохраняем число
     const hiddenNumber = arr[randomIndex];
-    arr[randomIndex] = "..";
+    arr[randomIndex] = "." + ".";
     return {
       progression: arr,
       hiddenNumber,
