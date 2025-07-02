@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import crypto from "crypto";
 
 export const getRandomNumber = (min, max) => {

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { runGame } from "../../../src/index.js";
 import { NOD } from "./calcGCD.js";
 import { getRandomNumber } from "../../utils/get-random-number.js";

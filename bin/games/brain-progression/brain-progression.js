@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { runGame } from "../../../src/index.js";
 import { arithmeticProgression } from "./get-array-arithmetic-progression.js";
 import { getRandomNumber } from "../../utils/get-random-number.js";

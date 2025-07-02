@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { getRandomItem } from "./get-random-item.js";
 import { calculateAnswer } from "./calculate-answer.js";
 import { runGame } from "../../../src/index.js";
