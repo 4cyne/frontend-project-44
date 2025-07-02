@@ -15,7 +15,7 @@ export const runGame = (gameRules, game) => {
   while (correctAnswersUser < maxAnswers) {
     const { number, correctAnswer } = game();
 
-    console.log(`Question: ${number}`);
+    console.log("Question:", number);
 
     const userAnswer = readlineSync
       .question("Your answer: ")
