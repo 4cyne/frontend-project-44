@@ -12,7 +12,7 @@ const game = () => {
       if (num % i === 0) {
         return false
       }
-    return true
+    return num > 1
   }
 
   return {
