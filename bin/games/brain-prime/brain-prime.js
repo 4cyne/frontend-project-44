@@ -6,13 +6,15 @@ const gameRules = `Answer "yes" if given number is prime. Otherwise answer "no".
 
 const game = () => {
   const num = getRandomNumber(1, 10)
+
   const isPrime = num => {
-    for (let i = 2, s = Math.sqrt(num); i <= s; i++)
+    for (let i = 2; i <= Math.sqrt(num); i++)
       if (num % i === 0) {
         return false
       }
-    return num > 1
+    return true
   }
+
   return {
     number: `${num}`,
     correctAnswer: isPrime(num) ? 'yes' : 'no',
