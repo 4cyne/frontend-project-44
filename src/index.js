@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readlineSync from "readline-sync";
 
 import { promptAndInsertName } from "./cli.js";
@@ -15,7 +16,7 @@ export const runGame = (gameRules, game) => {
   while (correctAnswersUser < maxAnswers) {
     const { number, correctAnswer } = game();
 
-    console.log("Question:", number);
+    console.log("Question: ", number);
 
     const userAnswer = readlineSync
       .question("Your answer: ")
