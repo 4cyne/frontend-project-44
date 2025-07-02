@@ -17,7 +17,7 @@ export const arithmeticProgression = (step, lim) => {
   const hiddenNumber = arr[randomIndex];
   arr[randomIndex] = "..";
   return {
-    progression: arr,
+    progression: arr.join(" "),
     hiddenNumber,
   };
 };
