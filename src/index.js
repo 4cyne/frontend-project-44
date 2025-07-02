@@ -9,7 +9,7 @@ export const runGame = (gameRules, game) => {
 
   let correctAnswersUser = 0;
   const maxAnswers = 3;
-
+  console.log(`Hello, ${userName}!`);
   console.log(gameRules);
 
   while (correctAnswersUser < maxAnswers) {
