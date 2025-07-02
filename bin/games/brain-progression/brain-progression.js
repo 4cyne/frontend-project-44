@@ -3,7 +3,7 @@ import { runGame } from "../../../src/index.js";
 import { arithmeticProgression } from "./get-array-arithmetic-progression.js";
 import { getRandomNumber } from "../../utils/get-random-number.js";
 
-const gameRules = "What is the result of the expression?";
+const gameRules = "What number is missing in the progression?";
 
 const game = () => {
   const length = getRandomNumber(5, 10);
