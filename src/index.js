@@ -1,39 +1,39 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync'
 
-import { promptAndInsertName } from "./cli.js";
+import { promptAndInsertName } from './cli.js'
 
 export const runGame = (gameRules, game) => {
-  console.log("Welcome to the Brain Games!");
+  console.log('Welcome to the Brain Games!')
 
-  const userName = promptAndInsertName();
+  const userName = promptAndInsertName()
 
-  let correctAnswersUser = 0;
-  const maxAnswers = 3;
+  let correctAnswersUser = 0
+  const maxAnswers = 3
 
-  console.log(`Hello, ${userName}!`);
+  console.log(`Hello, ${userName}!`)
 
-  console.log(gameRules);
+  console.log(gameRules)
 
   while (correctAnswersUser < maxAnswers) {
-    const { number, correctAnswer } = game();
+    const { number, correctAnswer } = game()
 
-    console.log(`Question: ${number}`);
+    console.log(`Question: ${number}`)
 
     const userAnswer = readlineSync
-      .question("Your answer: ")
+      .question('Your answer: ')
       .toLowerCase()
-      .trim();
+      .trim()
 
     if (userAnswer === correctAnswer.toString()) {
-      correctAnswersUser++;
-      console.log("Correct!");
+      correctAnswersUser++
+      console.log('Correct!')
     } else {
       console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
-      );
-      console.log(`Let's try again, ${userName}!`);
-      return;
+      )
+      console.log(`Let's try again, ${userName}!`)
+      return
     }
-    if (correctAnswersUser === 3) console.log(`Congratulations, ${userName}!`);
+    if (correctAnswersUser === 3) console.log(`Congratulations, ${userName}!`)
   }
-};
+}

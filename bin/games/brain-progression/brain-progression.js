@@ -1,21 +1,21 @@
 #!/usr/bin/env node
-import { runGame } from "../../../src/index.js";
-import { arithmeticProgression } from "./get-array-arithmetic-progression.js";
-import { getRandomNumber } from "../../utils/get-random-number.js";
+import { runGame } from '../../../src/index.js'
+import { arithmeticProgression } from './get-array-arithmetic-progression.js'
+import { getRandomNumber } from '../../utils/get-random-number.js'
 
-const gameRules = "What number is missing in the progression?";
+const gameRules = 'What number is missing in the progression?'
 
 const game = () => {
-  const length = getRandomNumber(5, 10);
-  const lim = getRandomNumber(5, 100);
-  const step = Math.floor(lim / length + 2);
+  const length = getRandomNumber(5, 10)
+  const lim = getRandomNumber(5, 100)
+  const step = Math.floor(lim / length + 2)
 
-  const { hiddenNumber, progression } = arithmeticProgression(step, lim);
+  const { hiddenNumber, progression } = arithmeticProgression(step, lim)
 
   return {
     number: `${progression}`,
     correctAnswer: `${hiddenNumber}`,
-  };
-};
+  }
+}
 
-runGame(gameRules, game);
+runGame(gameRules, game)
