@@ -6,7 +6,7 @@ export const arithmeticProgression = (step, lim) => {
   do {
     arr = Array.from(
       { length: Math.ceil(lim / step) },
-      (_, i) => (i + 1) * step
+      (_, i) => (i + 1) * step,
     )
     if (arr.length < 5 || arr.length > 10) {
       step = getRandomNumber(1, 10)
