@@ -8,16 +8,15 @@ export const arithmeticProgression = (step, lim) => {
   );
   if (arr.length >= 5 && arr.length <= 10) {
     // рандомно выбираем число, которое хотим скрыть
-
     const randomIndex = Math.floor(getRandomNumber(1, arr.length - 1));
-
     // сохраняем число
     const hiddenNumber = arr[randomIndex];
-
-    arr[randomIndex] = "..";
+    arr[randomIndex] = "." + ".";
     return {
       progression: arr,
       hiddenNumber,
     };
+  } else {
+    arithmeticProgression(step, lim);
   }
 };
