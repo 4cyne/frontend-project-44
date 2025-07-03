@@ -19,12 +19,12 @@ Answer 3 questions correctly and you win!
 ## manual
 
 1. clone the repository
+
    - git clone https://github.com/4cyne/frontend-project-44.git
 
 2. install dependencies
 
    - npm install
-
 
 ## brain-calc
 
@@ -52,7 +52,7 @@ Answer 3 questions correctly and you win!
 ### calculate and enter the missing numberю
 
 - command for run - "make brain-progression"
-- demo: https://asciinema.org/a/dgg1XxumW15oIzvagXofNteCI
+- demo: https://asciinema.org/a/NOT4IVI364B4qq7mVMfHraCOL
 
 ## brain-prime
 
