@@ -27,13 +27,16 @@ export const runGame = (gameRules, game) => {
     if (userAnswer === correctAnswer.toString()) {
       correctAnswersUser++
       console.log('Correct!')
-    } else {
+    }
+    else {
       console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`,
       )
       console.log(`Let's try again, ${userName}!`)
       return
     }
-    if (correctAnswersUser === 3) console.log(`Congratulations, ${userName}!`)
+    if (correctAnswersUser === 3) {
+      console.log(`Congratulations, ${userName}!`)
+    }
   }
 }
